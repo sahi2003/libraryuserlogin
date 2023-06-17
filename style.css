@@ -1,0 +1,43 @@
+body
+{
+background-color: violet;
+overflow: hidden;
+}
+
+#form
+{
+    background-color: white;
+    width:28%;
+    border-radius:6px;
+    margin:120px auto;
+    padding:50px;
+    box-shadow:10px 10px 5px rgb(82,11,7);
+}
+
+.input
+{
+    width:100%;
+    border-radius:10px;
+    border:0px solid #f6efef;
+    padding:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+
+#btn{
+    width:100%;
+    color:white;
+    background-color: violet;
+    padding:10px;
+    border-radius:8px;
+    font-size:large;
+}
+
+@media screen and (max-width:700px){
+    #form{
+        width:65%;
+        padding:40px;
+    }
+}
